@@ -117,7 +117,7 @@
               <p class="self-end">"</p>
             </div>
             <a 
-              href={`https:/twitter.com/intent/tweet?text=${note.generated_thank_you_note}&hashtags=ThankADev`}
+              href={`https://twitter.com/intent/tweet?text=${note.generated_thank_you_note}&hashtags=ThankADev`}
               class="w-fit self-end px-4 py-2 rounded-xl border border-orange-500 bg-orange-500 hover:bg-orange-800 hover:border-orange-800 hover:text-white"
             >
               Tweet
