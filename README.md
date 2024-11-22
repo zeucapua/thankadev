@@ -2,8 +2,11 @@
 
 # Thank a Dev
 
+Live at <a href="https://thankadev.zeu.dev">thankadev.zeu.dev</a>
+
 Generate thank you notes for open source maintainers based on your repository's SBOM (software bill of materials).
-As seen on Jason Lengstorf's Web Dev Challenge series.
+
+**As seen on Jason Lengstorf's Web Dev Challenge series.**
 
 ## Tech Stack
 - Svelte(Kit): JS UI and meta framework
