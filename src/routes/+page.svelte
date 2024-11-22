@@ -36,7 +36,8 @@
   let parsedData = $derived.by(() => {
     if (form && form.result) {
       const lines = form.result.split("\n");
-      const relevantLines = lines.slice(1, lines.length -1).join("");
+      const relevantLines = lines.slice(1, lines.length-2).join("");
+      console.log({ relevantLines });
       const result = JSON.parse(relevantLines);
       return result as ThankYouNote[];
     }

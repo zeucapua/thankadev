@@ -18,7 +18,7 @@ export const actions: Actions = {
       For each library repository, fetch its GitHub description and its owner's image 
       and thank its authors based on how useful it is. Ensure the note is less than 280 characters long.
 
-      Return the thank you notes with this schema as JSON array:
+      Return the thank you notes with this schema ONLY as JSON array:
       {
         repository_name: string;
         repository_description: string;
@@ -26,6 +26,8 @@ export const actions: Actions = {
         generated_thank_you_note: string;
       }[]
     `); 
+
+    console.log({ text: result.response.text() });
 
     return { result: result.response.text() }
   }
