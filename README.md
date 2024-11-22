@@ -1,38 +1,19 @@
-# create-svelte
+<img src="/static/turkeydev.png" style="width: 250px; height: 250px;"/>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Thank a Dev
 
-## Creating a project
+Generate thank you notes for open source maintainers based on your repository's SBOM (software bill of materials).
+As seen on Jason Lengstorf's Web Dev Challenge series.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack
+- Svelte(Kit): JS UI and meta framework
+- Google Gemini: AI SDK (sponsor of the WDC episode)
+- OpenSauced API: To easily generate an SBOM list
+- TailwindCSS: CSS Library
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## How it works
+1. User inputs their repository of choice (eg `zeucapua/thankadev`)
+2. Program will output the list of dependencies
+3. User clicks `Generate Notes`
+4. User goes through each thank you note generated and decide which to tweet
+5. Program opens a new tab to a tweet intent
