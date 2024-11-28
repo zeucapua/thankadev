@@ -8,6 +8,10 @@ Generate thank you notes for open source maintainers based on your repository's 
 
 **As seen on Jason Lengstorf's Web Dev Challenge series.**
 
+<a href="https://www.youtube.com/watch?v=pn5Jju4FNG4">
+  <img src="https://img.youtube.com/vi/pn5Jju4FNG4/hqdefault.jpg" />
+</a>
+
 ## Tech Stack
 - Svelte(Kit): JS UI and meta framework
 - Google Gemini: AI SDK (sponsor of the WDC episode)
