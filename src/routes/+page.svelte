@@ -122,6 +122,12 @@
             >
               Tweet
             </a>
+            <a 
+              href={`https://bsky.app/intent/compose?text=${note.generated_thank_you_note+" #ThankADev"}`}
+              class="w-fit self-end px-4 py-2 rounded-xl border border-blue-500 bg-blue-500 hover:bg-blue-800 hover:border-blue-800 hover:text-white"
+              >
+              Skeet
+            </a>
           </article>
         {/each}
       </section>
